@@ -1,0 +1,56 @@
+<template name="massage">
+
+    <head>
+        <title>Melt Massage</title>
+        {{> imports}}
+    </head>
+
+    <body>
+
+    {{> nav}}
+
+
+    <div class="container">
+
+
+        <div class="col-md-8">
+            <h1>Massage</h1>
+
+            <ul class="nav nav-pills">
+                <li><a class="js-anchor-link" href="" data-scroll="#therapeutic">Customized Therapeutic Massage</a></li>
+                <li><a class="js-anchor-link" href="" data-scroll="#prenatal">Prenatal Massage</a></li>
+                <li><a class="js-anchor-link" href="" data-scroll="#rates">Rates</a></li>
+                <li><a class="js-anchor-link" href="" data-scroll="#in-home">In-Home Massage</a></li>
+            </ul>
+
+            <div class="spacer"></div>
+
+            {{> therapeutic}}
+
+            <div class="spacer"></div>
+
+            {{> prenatal}}
+
+            <div class="spacer"></div>
+
+            {{> rates}}
+
+            <div class="spacer"></div>
+
+            {{> inHome}}
+
+
+        </div>
+
+        <div class="col-md-1"></div>
+        {{> upcoming}}
+
+
+    </div>
+
+
+    {{> footer}}
+
+    </body>
+
+</template>

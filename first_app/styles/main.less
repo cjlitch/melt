@@ -1,0 +1,76 @@
+@import "colors";
+
+body {
+    padding-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: @gray-background;
+    color: @green-text;
+}
+
+a {
+    color: @green-link;
+}
+
+h1,
+h2 {
+    font-family: 'Courgette', Georgia, serif;
+}
+
+.thumbnail {
+    background-color: transparent;
+    border-top: 1px dotted @green-text;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+    border-radius: 0;
+    color: @green-text;
+}
+
+.thumbnail .caption {
+    color: @green-text;
+}
+
+.navbar-default {
+    background-color: @gray-background;
+    background-image: none;
+}
+
+nav > .open > a {
+    background-image: none;
+    background-color: @gray-active;
+}
+
+.spacer {
+    margin-top: 30px;
+}
+
+.media-body {
+    vertical-align: middle;
+}
+
+.headshot {
+    border-radius: 4px;
+}
+
+.section-break {
+    width: 100%;
+    height: auto;
+}
+
+.splash-header() {
+    text-shadow: -1px 1px 1px rgba(58, 58, 58, 0.62);
+    color: @white;
+    padding: 20px 10px;
+    border-radius: 4px;
+}
+
+.splash-header-therapeutic {
+    .splash-header();
+    background-image: url('purple-flowers-blurred.jpeg');
+}
+
+.splash-header-prenatal {
+    .splash-header();
+    background-image: url('yellow-flower-blurred.jpeg');
+}

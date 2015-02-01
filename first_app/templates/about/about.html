@@ -1,0 +1,62 @@
+<template name="about">
+
+    <head>
+        <title>Melt Massage</title>
+        {{> imports}}
+    </head>
+
+    <body>
+
+    {{> nav}}
+
+
+    <div class="container">
+
+
+        <div class="col-md-8">
+            <h1>About Us</h1>
+
+            <ul class="nav nav-pills">
+                <li><a class="js-anchor-link" href="" data-scroll="#philosophy">Our Philosophy</a></li>
+                <li><a class="js-anchor-link" href="" data-scroll="#space">Our Space</a></li>
+                <li><a class="js-anchor-link" href="" data-scroll="#location">Our Location</a></li>
+                <li><a class="js-anchor-link" href="" data-scroll="#therapists">Our Therapists</a></li>
+                <li><a class="js-anchor-link" href="" data-scroll="#instructors">Our Instructors</a></li>
+            </ul>
+
+            <div class="spacer"></div>
+
+            {{> philosophy}}
+
+            <div class="spacer"></div>
+
+            {{> space}}
+
+            <div class="spacer"></div>
+
+            {{> location}}
+
+            <div class="spacer"></div>
+
+            {{> therapists}}
+
+            <div class="spacer"></div>
+
+            {{> instructors}}
+
+
+        </div>
+
+        <div class="col-md-1"></div>
+        {{> upcoming}}
+
+
+    </div>
+
+
+    {{> footer}}
+
+    </body>
+
+</template>
+
