@@ -12,36 +12,34 @@ if (Meteor.isClient) {
     };
 
     var postRenderScroll = function() {
-        $(document).ready(function() {
-            $('html, body').scrollTop(0);
-        });
+        $('html, body').scrollTop(0);
     };
 
-    Template.main.postRender = function () {
+    Template.main.rendered = function () {
         postRenderScroll();
     };
 
     Template.about.events({
-        'click': navClickHandler
+        'click .js-anchor-link': navClickHandler
     });
 
-    Template.about.postRender = function () {
+    Template.about.rendered = function () {
         postRenderScroll();
     };
 
     Template.massage.events({
-        'click': navClickHandler
+        'click .js-anchor-link': navClickHandler
     });
 
-    Template.massage.postRender = function () {
+    Template.massage.rendered = function () {
         postRenderScroll();
     };
 
     Template.classes.events({
-        'click': navClickHandler
+        'click .js-anchor-link': navClickHandler
     });
 
-    Template.classes.postRender = function () {
+    Template.classes.rendered = function () {
         postRenderScroll();
     };
 }
