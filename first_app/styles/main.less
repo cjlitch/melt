@@ -11,6 +11,11 @@ a {
     color: @green-link;
 }
 
+a:hover,
+a:focus {
+    color: @green-hover;
+}
+
 h1,
 h2 {
     font-family: 'Courgette', Georgia, serif;
@@ -29,16 +34,6 @@ h2 {
 
 .thumbnail .caption {
     color: @green-text;
-}
-
-.navbar-default {
-    background-color: @gray-background;
-    background-image: none;
-}
-
-nav > .open > a {
-    background-image: none;
-    background-color: @gray-active;
 }
 
 .spacer {
@@ -73,4 +68,17 @@ nav > .open > a {
 .splash-header-prenatal {
     .splash-header();
     background-image: url('yellow-flower-blurred.jpeg');
+}
+
+.calendar-table {
+    th,
+    td {
+        width: 14.2%;
+    }
+
+    th {
+        text-align: center;
+    }
+
+    text-align: center;
 }

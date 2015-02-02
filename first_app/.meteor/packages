@@ -8,7 +8,7 @@ meteor-platform
 autopublish
 insecure
 jquery
-mizzao:bootstrap-3
 mrt:chartjs
 less
 iron:router
+twbs:bootstrap

@@ -1,0 +1,45 @@
+<template name="classes">
+
+    <head>
+        <title>Melt Massage</title>
+        {{> imports}}
+    </head>
+
+    <body>
+
+    {{> nav}}
+
+
+    <div class="container">
+
+        <div class="col-md-8">
+            <h1>Classes</h1>
+
+            <ul class="nav nav-pills">
+                <li><a class="js-anchor-link" href="" data-scroll="#calendarThisMonth">Calendar</a></li>
+                <li><a class="js-anchor-link" href="" data-scroll="#classes">Classes</a></li>
+            </ul>
+
+            <div class="spacer"></div>
+
+            {{> calendarThisMonth}}
+
+            <div class="spacer"></div>
+
+            {{> classDescriptions}}
+
+        </div>
+
+        <div class="col-md-1"></div>
+        {{> upcoming}}
+
+
+    </div>
+
+
+    {{> footer}}
+
+    </body>
+
+</template>
+

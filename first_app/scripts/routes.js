@@ -11,3 +11,7 @@ Router.route('/about', function () {
 Router.route('/massage', function() {
     this.render('massage');
 });
+
+Router.route('/classes', function() {
+    this.render('classes');
+});
