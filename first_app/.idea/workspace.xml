@@ -44,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4925575" vertical-offset="176" max-vertical-offset="1335">
+            <state vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="1335">
               <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
               <folding />
             </state>
@@ -57,8 +57,18 @@
       <file leaf-file-name="classes.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/classes/classes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="765">
-              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="840">
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workshops.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/classes/workshops.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.16779432" vertical-offset="581" max-vertical-offset="1320">
+              <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -67,8 +77,8 @@
       <file leaf-file-name="classDescriptions.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/classes/classDescriptions.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.791667" vertical-offset="776" max-vertical-offset="1560">
-              <caret line="69" column="817" selection-start-line="69" selection-start-column="817" selection-end-line="69" selection-end-column="817" />
+            <state vertical-scroll-proportion="-8.75" vertical-offset="390" max-vertical-offset="3750">
+              <caret line="40" column="45" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -109,16 +119,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
               <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jumbotron.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/jumbotron.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="615">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -169,9 +169,10 @@
         <option value="$PROJECT_DIR$/scripts/routes.js" />
         <option value="$PROJECT_DIR$/templates/nav.html" />
         <option value="$PROJECT_DIR$/templates/classes/calendarThisMonth.html" />
+        <option value="$PROJECT_DIR$/styles/main.less" />
         <option value="$PROJECT_DIR$/templates/classes/classes.html" />
         <option value="$PROJECT_DIR$/templates/classes/classDescriptions.html" />
-        <option value="$PROJECT_DIR$/styles/main.less" />
+        <option value="$PROJECT_DIR$/templates/classes/workshops.html" />
       </list>
     </option>
   </component>
@@ -735,14 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/nav.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="630">
@@ -759,26 +752,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/styles/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="1335">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/classes/classes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="765">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="840">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/classes/classDescriptions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.791667" vertical-offset="776" max-vertical-offset="1560">
-          <caret line="69" column="817" selection-start-line="69" selection-start-column="817" selection-end-line="69" selection-end-column="817" />
+        <state vertical-scroll-proportion="-8.75" vertical-offset="390" max-vertical-offset="3750">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/main.less">
+    <entry file="file://$PROJECT_DIR$/templates/classes/workshops.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4925575" vertical-offset="176" max-vertical-offset="1335">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.16779432" vertical-offset="581" max-vertical-offset="1320">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
           <folding />
         </state>
       </provider>
